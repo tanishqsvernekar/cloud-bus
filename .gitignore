@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing & Cache
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Build Outputs
+dist/
+dist-ssr/
+*.local
+
+# Environment & Local Config
+.env
+smartbus.db
+smartbus.db-journal
+
+# Editor & System
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+powershell.cmd
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
