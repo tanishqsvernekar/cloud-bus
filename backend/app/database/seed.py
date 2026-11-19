@@ -211,6 +211,11 @@ def seed_database(db: Session = None):
                 )
                 db.add(rec)
 
+            # Always keep user display names up to date with the latest seed values.
+            passenger_check = db.query(User).filter(User.email == "passenger@smartbus.demo").first()
+            if passenger_check and passenger_check.full_name != "Welcome User":
+                passenger_check.full_name = "Welcome User"
+
             db.commit()
             print("Database already seeded. Live fleet occupancy records refreshed.")
             return
