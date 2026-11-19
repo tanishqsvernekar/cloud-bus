@@ -1,4 +1,4 @@
-# SmartBus AI — System Architecture
+# Cloud Bus AI — System Architecture
 
 **Cloud-Based Smart Public Bus Occupancy Prediction System**  
 *Academic Cloud Computing Project | SDG 11: Sustainable Cities and Communities (Target 11.2)*
@@ -7,7 +7,7 @@
 
 ## 1. High-Level Architecture Overview
 
-SmartBus AI is designed as a cloud-native, horizontally scalable 3-tier application:
+Cloud Bus AI is designed as a cloud-native, horizontally scalable 3-tier application:
 
 ```mermaid
 flowchart TB

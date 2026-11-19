@@ -1,4 +1,4 @@
-# SmartBus AI — REST API Documentation
+# Cloud Bus AI — REST API Documentation
 
 **Base URL**: `http://localhost:8000/api`  
 **Swagger Interactive UI**: `http://localhost:8000/docs`  

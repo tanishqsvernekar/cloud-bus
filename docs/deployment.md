@@ -1,4 +1,4 @@
-# SmartBus AI — Render Deployment Guide
+# Cloud Bus AI — Render Deployment Guide
 
 This repository includes a Render Blueprint that deploys the React frontend and
 FastAPI backend together in one web service, with a managed PostgreSQL database.
@@ -41,7 +41,7 @@ docker compose up --build -d
 
 # AWS Cloud Deployment (alternative)
 
-The following describes an alternative deployment of **SmartBus AI** on AWS.
+The following describes an alternative deployment of **Cloud Bus AI** on AWS.
 
 ---
 

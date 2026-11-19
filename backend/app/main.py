@@ -66,7 +66,7 @@ app = FastAPI(
     title=settings.PROJECT_NAME,
     version=settings.VERSION,
     description=(
-        "SmartBus AI: Cloud-Based Smart Public Bus Occupancy Prediction System. "
+        "Cloud Bus AI: Cloud-Based Smart Public Bus Occupancy Prediction System. "
         "Academic Cloud Computing project for SDG 11 (Sustainable Cities and Communities)."
     ),
     docs_url="/docs",
@@ -117,7 +117,7 @@ app.add_middleware(
 def health_check():
     return {
         "status": "healthy",
-        "service": "SmartBus AI Backend",
+        "service": "Cloud Bus AI Backend",
         "version": settings.VERSION,
         "environment": settings.ENVIRONMENT,
         "sdg_target": "SDG 11.2 - Sustainable Cities and Accessible Transport",

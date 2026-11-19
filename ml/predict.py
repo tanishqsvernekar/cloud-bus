@@ -1,5 +1,5 @@
 """
-SmartBus AI - ML Predictor Service
+Cloud Bus AI - ML Predictor Service
 Loads trained model and serves predictions for passenger counts and occupancy levels.
 """
 

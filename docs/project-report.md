@@ -14,7 +14,7 @@
 
 Urban public transit systems frequently suffer from severe passenger crowding during peak commuter hours while experiencing sub-optimal utilization during mid-day windows. Such crowding degrades commuter comfort, increases dwell times, and discourages public transit adoption in favor of private vehicles—exacerbating carbon emissions and urban traffic gridlock.
 
-This project presents **SmartBus AI**, an end-to-end, cloud-deployable full-stack application that leverages machine learning to forecast public bus occupancy and recommend less crowded alternatives in real time. Deployed across a 3-tier cloud architecture utilizing Amazon Web Services (AWS), the platform serves two distinct user classes: commuters seeking comfortable transit options and transport authorities monitoring fleet capacity and route saturation.
+This project presents **Cloud Bus AI**, an end-to-end, cloud-deployable full-stack application that leverages machine learning to forecast public bus occupancy and recommend less crowded alternatives in real time. Deployed across a 3-tier cloud architecture utilizing Amazon Web Services (AWS), the platform serves two distinct user classes: commuters seeking comfortable transit options and transport authorities monitoring fleet capacity and route saturation.
 
 The predictive core utilizes an ensemble Random Forest Regressor trained on 20,400 chronologically sequenced transit records spanning 10 key Mysuru city transit routes. On an independent held-out test partition of 4,080 samples, the model achieved a **Coefficient of Determination ($R^2$) of 0.9654**, a **Mean Absolute Error (MAE) of 2.10 passengers**, and a **Root Mean Squared Error (RMSE) of 2.66 passengers**. The system demonstrates horizontal cloud scalability, automated Docker containerization, robust role-based access control, and direct alignment with UN SDG Target 11.2.
 
@@ -29,7 +29,7 @@ Rapid urbanization in developing smart cities creates an urgent demand for effic
 This project directly implements **UN SDG Target 11.2**:
 > *"By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons."*
 
-By providing transparent crowding forecasts, SmartBus AI enables:
+By providing transparent crowding forecasts, Cloud Bus AI enables:
 1. **Passenger Comfort and Safety**: Vulnerable commuters and seniors can plan journeys on less crowded vehicles with confirmed seating availability.
 2. **Emissions Reduction**: Flattening peak crowding encourages sustained public transit usage over carbon-intensive private two-wheelers and automobiles.
 3. **Optimized Resource Allocation**: Transport planners can detect underutilized routes and reallocate fleet units to high-demand corridors.
@@ -119,4 +119,4 @@ The model was trained on 16,320 records and evaluated on an independent test par
 
 ### Chapter 5: Conclusion & Future Scope
 
-SmartBus AI successfully demonstrates that combining machine learning with cloud-native web architectures can measurably solve public transit challenges. By transforming raw historical passenger records into predictive crowding signals, the system empowers commuters, reduces crush load on urban buses, and advances United Nations Sustainable Development Goal 11. Future extensions may integrate real-time Automated Passenger Counter (APC) optical sensors and multi-modal transit transfers.
+Cloud Bus AI successfully demonstrates that combining machine learning with cloud-native web architectures can measurably solve public transit challenges. By transforming raw historical passenger records into predictive crowding signals, the system empowers commuters, reduces crush load on urban buses, and advances United Nations Sustainable Development Goal 11. Future extensions may integrate real-time Automated Passenger Counter (APC) optical sensors and multi-modal transit transfers.

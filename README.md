@@ -1,4 +1,4 @@
-# SMARTBUS AI 🚌⚡
+# CLOUD BUS AI 🚌⚡
 ### Cloud-Based Smart Public Bus Occupancy Prediction System
 **Academic Cloud Computing Project | United Nations SDG 11: Sustainable Cities and Communities (Target 11.2)**  
 *Focus Prototype: Mysuru City Urban Transit Network, Karnataka, India*
@@ -11,7 +11,7 @@
 
 ## 🌟 Project Overview
 
-**SmartBus AI** is an intelligent public transit platform that predicts bus passenger crowding using machine learning and guides commuters toward less crowded buses. It bridges the gap between commuters seeking comfortable transit and municipal transport authorities managing fleet capacity.
+**Cloud Bus AI** is an intelligent public transit platform that predicts bus passenger crowding using machine learning and guides commuters toward less crowded buses. It bridges the gap between commuters seeking comfortable transit and municipal transport authorities managing fleet capacity.
 
 ### Demo Credentials (Local Demonstration)
 
@@ -218,4 +218,4 @@ pytest backend/tests/test_api.py -v
 ---
 
 ## 🌍 UN SDG 11: Sustainable Cities and Communities
-SmartBus AI aligns with **Target 11.2** by providing accessible, sustainable transportation through AI-driven passenger load redistribution, reducing peak crowding, decreasing waiting anxiety, and optimizing municipal fleet efficiency.
+Cloud Bus AI aligns with **Target 11.2** by providing accessible, sustainable transportation through AI-driven passenger load redistribution, reducing peak crowding, decreasing waiting anxiety, and optimizing municipal fleet efficiency.

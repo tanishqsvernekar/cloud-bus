@@ -1,5 +1,5 @@
 """
-SmartBus AI - Dataset Generator
+Cloud Bus AI - Dataset Generator
 Generates realistic synthetic passenger occupancy data for Mysuru City Transit.
 Features realistic morning/evening peaks, weekend shifts, and route variations.
 """

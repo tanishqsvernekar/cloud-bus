@@ -1,5 +1,5 @@
 """
-SmartBus AI - Model Training Pipeline
+Cloud Bus AI - Model Training Pipeline
 Trains a Random Forest Regressor to predict bus passenger count.
 Saves model artifacts, metrics (MAE, RMSE, R²), and feature importances.
 """

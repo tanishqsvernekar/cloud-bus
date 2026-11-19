@@ -153,7 +153,7 @@ export const LandingPage: React.FC = () => {
 
             {/* Description */}
             <p className="mt-6 text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl mx-auto">
-              SmartBus AI leverages machine learning to forecast public transit crowding before you
+              Cloud Bus AI leverages machine learning to forecast public transit crowding before you
               travel. Empowering passengers with less crowded travel options while providing transport
               authorities with real-time fleet analytics for Mysuru city.
             </p>
@@ -307,7 +307,7 @@ export const LandingPage: React.FC = () => {
                 </button>
 
                 <div className="text-center text-xs text-slate-400">
-                  New to SmartBus?{' '}
+                  New to Cloud Bus?{' '}
                   <button
                     type="button"
                     onClick={() => setShowRegisterModal(true)}
@@ -434,7 +434,7 @@ export const LandingPage: React.FC = () => {
             Intelligent Transit Architecture
           </span>
           <h2 className="text-3xl font-extrabold text-white mt-2">
-            Why SmartBus AI Outperforms Conventional Transit
+            Why Cloud Bus AI Outperforms Conventional Transit
           </h2>
         </div>
 
@@ -571,7 +571,7 @@ export const LandingPage: React.FC = () => {
       <footer className="mt-auto border-t border-brand-border/60 bg-brand-darkest py-8 text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
           <div>
-            <span className="font-bold text-slate-300">SmartBus AI</span> &copy; 2026. Academic Cloud
+            <span className="font-bold text-slate-300">Cloud Bus AI</span> &copy; 2026. Academic Cloud
             Computing Project.
             <div className="text-xs font-bold text-sky-400 mt-0.5">
               Project by Tanishq, Preetham, Uthkarsh & Vinay

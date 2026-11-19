@@ -1,5 +1,5 @@
 """
-Vercel serverless entry-point for SmartBus AI FastAPI backend.
+Vercel serverless entry-point for Cloud Bus AI FastAPI backend.
 
 Vercel's Python runtime looks for an ASGI/WSGI callable at `api/index.py`
 (relative to the project root configured in vercel.json).  We simply import
