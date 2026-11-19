@@ -150,7 +150,7 @@ export const PassengerDashboard: React.FC = () => {
                 </span>
               </div>
               <h1 className="text-2xl sm:text-3xl font-extrabold text-white">
-                Welcome back, {user?.full_name || 'Passenger'}!
+                Welcome back, {user?.full_name || 'Welcome User'}!
               </h1>
               <p className="text-sm text-slate-300 mt-1 max-w-xl">
                 Check AI predicted bus occupancy, discover less crowded alternatives, and travel with
